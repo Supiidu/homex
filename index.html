@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projeto Bootstrap</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">NexHome</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-nos">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nossosprodutos">Nossos Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faleconosco.html">Fale Conosco</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://casaecampo.com.br/wp-content/uploads/2023/09/f0c6e919-9122-4e5c-a077-acf511924ab8.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Imagens/imagem2.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Imagens/images.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div id="titulo" class="container mt-5">
+        <h1 class="display-1 text-center font-weight-bold">NexHome</h1>
+        <p class="lead text-center">As Melhores casas em um só lugar</p>
+      </div>
+
+
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="card text-bg-dark">
+              <img src="Imagens/imagem1.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <div class="fade-overlay"></div>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="sobre-nos" class="container my-5">
+        <h1 class="display-4 text-center font-weight-bold">Sobre Nós</h1>
+        <p class="lead text-center">
+            Bem-vindo à nossa empresa de compra de casas! Desde nossa fundação, temos nos dedicado a facilitar o processo de compra e venda de imóveis, oferecendo soluções rápidas e eficientes para nossos clientes.
+        </p>
+        <p class="lead text-center">
+            Nossa equipe é composta por profissionais experientes no setor imobiliário, prontos para ajudar você a encontrar a casa dos seus sonhos ou a vender seu imóvel de forma rápida e segura. Trabalhamos com total transparência e ética, garantindo que você esteja sempre bem informado em cada etapa do processo.
+        </p>
+        <p class="lead text-center">
+            Compreendemos que comprar ou vender uma casa é uma decisão importante e, por isso, estamos aqui para tornar essa experiência o mais simples e tranquila possível. Nossa missão é oferecer um serviço excepcional e atender às suas necessidades específicas, ajudando você a alcançar seus objetivos imobiliários.
+        </p>
+        <p class="lead text-center">
+            Se você está pensando em comprar ou vender um imóvel, entre em contato conosco! Estamos prontos para ajudar você a fazer o melhor negócio.
+        </p>
+    </div>
+
+    <div id="nossosprodutos" class="nossosprodutos">
+        <div id="titulo" class="container mt-5">
+            <h1 class="display-1 text-center font-weight-bold">Nossos Produtos</h1>
+          </div>
+          
+          <div class="container my-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="card1" class="card bg-dark mb-3">
+                        <img src="Imagens/images (1).jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa 1</h5>
+                            <p class="card-text">Uma de nossas casas.</p>
+                            <a href="faleconosco.html#faleconosco" class="btn btn-success">Fale Conosco</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="card2" class="card bg-dark mb-3">
+                        <img src="Imagens/IMG_2384.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa 2</h5>
+                            <p class="card-text">Uma de nossas casas.</p>
+                            <a href="faleconosco.html#faleconosco" class="btn btn-success">Fale Conosco</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="card3" class="card bg-dark mb-3">
+                        <img src="Imagens/images.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa 3</h5>
+                            <p class="card-text">Uma de nossas casas.</p>
+                            <a href="faleconosco.html#faleconosco" class="btn btn-success">Fale Conosco</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+          <p class="mb-0">© 2024 NexHome. Todos os direitos reservados.</p>
+          <ul class="list-inline">
+              <li class="list-inline-item">
+                  <a href="#" class="text-white">Política de Privacidade</a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="#" class="text-white">Termos de Serviço</a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="#" class="text-white">Contato</a>
+              </li>
+          </ul>
+      </div>
+  </footer>
+  
+
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

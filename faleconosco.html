@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projeto Bootstrap</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylefaleconosco.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">NexHome</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html#sobre-nos">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#nossosprodutos">Nossos Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faleconosco.html">Fale Conosco</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Imagens/faleconosco.png" class="d-block w-100" alt="Imagem 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-1 text-center font-weight-bold">Fale Conosco</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="contatos" class="container my-5">
+        <h2 class="text-center mb-4">Nossos Contatos</h2>
+        <ul class="list-unstyled">
+            <li>
+                <strong>Telefone:</strong> (11) 98765-4321
+            </li>
+            <li>
+                <strong>E-mail:</strong> contato@nexhome.com
+            </li>
+            <li>
+                <strong>Endereço:</strong> Av. Exemplo, 123 - Centro, São Paulo, SP
+            </li>
+            <li>
+            <strong>Horário de Atendimento:</strong> Segunda a Sexta, das 9h às 18h
+            </li>
+        </ul>
+    </div> 
+
+    <div id="faleconosco" class="formulario">
+        <div class="container my-5">
+            <h2 class="text-center mb-4">Fale Conosco</h2>
+            <form class="bg-dark text-light p-4 rounded">
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control transparent-input" id="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="col">
+                        <label for="sobrenome" class="form-label">Sobrenome</label>
+                        <input type="text" class="form-control transparent-input" id="sobrenome" placeholder="Digite seu sobrenome">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control transparent-input" id="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control transparent-input" id="mensagem" rows="4" placeholder="Digite sua mensagem"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Enviar</button>
+            </form>
+        </div>
+
+
+    </div>
+
+
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+          <p class="mb-0">© 2024 NexHome. Todos os direitos reservados.</p>
+          <ul class="list-inline">
+              <li class="list-inline-item">
+                  <a href="#" class="text-white">Política de Privacidade</a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="#" class="text-white">Termos de Serviço</a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="#" class="text-white">Contato</a>
+              </li>
+          </ul>
+      </div>
+  </footer>
+  
+
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
